@@ -1,0 +1,8 @@
+prefix=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel
+
+Name: turtlebot3_bringup
+Description: Description of turtlebot3_bringup
+Version: 1.1.0
+Cflags: 
+Libs: -L/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/lib 
+Requires: roscpp std_msgs sensor_msgs diagnostic_msgs turtlebot3_msgs

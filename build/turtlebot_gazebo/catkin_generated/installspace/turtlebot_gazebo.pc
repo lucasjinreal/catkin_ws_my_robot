@@ -1,0 +1,8 @@
+prefix=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install
+
+Name: turtlebot_gazebo
+Description: Description of turtlebot_gazebo
+Version: 2.2.3
+Cflags: 
+Libs: -L/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install/lib 
+Requires: 

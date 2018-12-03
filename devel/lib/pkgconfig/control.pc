@@ -1,0 +1,8 @@
+prefix=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel
+
+Name: control
+Description: Description of control
+Version: 0.0.0
+Cflags: 
+Libs: -L/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/lib 
+Requires: 

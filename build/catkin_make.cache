@@ -1,0 +1,2 @@
+control:turtlebot3:turtlebot3_bringup:turtlebot3_description:turtlebot3_example:turtlebot3_navigation:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations:turtlebot3_slam:turtlebot3_teleop
+-DCATKIN_DEVEL_PREFIX=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel -DCMAKE_INSTALL_PREFIX=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install -G Unix Makefiles

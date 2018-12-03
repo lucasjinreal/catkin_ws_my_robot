@@ -1,0 +1,8 @@
+prefix=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install
+
+Name: turtlebot3_gazebo
+Description: Description of turtlebot3_gazebo
+Version: 1.1.0
+Cflags: -I/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install/include
+Libs: -L/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install/lib 
+Requires: roscpp std_msgs sensor_msgs geometry_msgs nav_msgs tf gazebo_ros

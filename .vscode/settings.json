@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/melodic/lib/python2.7/dist-packages",
+        "/media/jintain/sg/ai/career/robot/ctirobot/milestones/RefineDetCaffe/python",
+        "/media/jintain/sg/ai/career/robot/ctirobot/milestones/avod_ssd/wavedata/",
+        "/media/jintain/sg/ai/career/robot/ctirobot/milestones/second_pytorch"
+    ]
+}
