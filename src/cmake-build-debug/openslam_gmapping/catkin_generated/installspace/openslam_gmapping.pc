@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: openslam_gmapping
+Description: Description of openslam_gmapping
+Version: 0.1.2
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib -lgridfastslam -lscanmatcher -lsensor_base -lsensor_range -lsensor_odometry -lutils
+Requires: 

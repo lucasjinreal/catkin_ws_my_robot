@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src
+CMAKE_SOURCE_DIR = /media/jintain/wd/ros/wps/catkin_ws_my_robot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build
+CMAKE_BINARY_DIR = /media/jintain/wd/ros/wps/catkin_ws_my_robot/build
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_m
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/test_results
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/jintain/wd/ros/wps/catkin_ws_my_robot/src /media/jintain/wd/ros/wps/catkin_ws_my_robot/src /media/jintain/wd/ros/wps/catkin_ws_my_robot/build /media/jintain/wd/ros/wps/catkin_ws_my_robot/build /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build"
+export PWD="/media/jintain/wd/ros/wps/catkin_ws_my_robot/build"

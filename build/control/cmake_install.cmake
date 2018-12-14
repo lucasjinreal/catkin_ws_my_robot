@@ -1,8 +1,8 @@
-# Install script for directory: /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/control
+# Install script for directory: /media/jintain/wd/ros/wps/catkin_ws_my_robot/src/control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install")
+  set(CMAKE_INSTALL_PREFIX "/media/jintain/wd/ros/wps/catkin_ws_my_robot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/control/catkin_generated/installspace/control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/control/catkin_generated/installspace/control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control/cmake" TYPE FILE FILES
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/control/catkin_generated/installspace/controlConfig.cmake"
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/control/catkin_generated/installspace/controlConfig-version.cmake"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/control/catkin_generated/installspace/controlConfig.cmake"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/control/catkin_generated/installspace/controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/control" TYPE FILE FILES "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/control/package.xml")
 endif()
 

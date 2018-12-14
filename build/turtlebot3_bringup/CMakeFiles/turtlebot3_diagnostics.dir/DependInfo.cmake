@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_bringup/src/turtlebot3_diagnostics.cpp" "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.o"
+  "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_bringup/src/turtlebot3_diagnostics.cpp" "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

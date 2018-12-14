@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install")
+  set(CMAKE_INSTALL_PREFIX "/media/jintain/wd/ros/wps/catkin_ws_my_robot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

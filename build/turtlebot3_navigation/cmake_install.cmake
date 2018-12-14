@@ -1,8 +1,8 @@
-# Install script for directory: /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_navigation
+# Install script for directory: /media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install")
+  set(CMAKE_INSTALL_PREFIX "/media/jintain/wd/ros/wps/catkin_ws_my_robot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation/cmake" TYPE FILE FILES
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_navigation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE DIRECTORY FILES
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_navigation/launch"
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_navigation/maps"
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_navigation/param"
-    "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_navigation/rviz"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_navigation/launch"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_navigation/maps"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_navigation/param"
+    "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_navigation/rviz"
     )
 endif()
 

@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src
+CMAKE_SOURCE_DIR = /media/jintain/wd/ros/wps/catkin_ws_my_robot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build
+CMAKE_BINARY_DIR = /media/jintain/wd/ros/wps/catkin_ws_my_robot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/control/CMakeFiles/progress.marks
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles 0
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/control/CMakeFiles/progress.marks
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/clean
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/preinstall
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/preinstall
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 control/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(MAKE) -f CMakeFiles/Makefile2 control/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : control/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ _catkin_empty_exported_target: control/CMakeFiles/_catkin_empty_exported_target.
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(MAKE) -f control/CMakeFiles/_catkin_empty_exported_target.dir/build.make control/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(MAKE) -f control/CMakeFiles/_catkin_empty_exported_target.dir/build.make control/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

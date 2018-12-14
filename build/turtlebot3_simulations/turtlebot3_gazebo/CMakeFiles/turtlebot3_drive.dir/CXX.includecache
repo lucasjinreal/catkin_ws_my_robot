@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.h
+/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.h
 ros/ros.h
 -
 sensor_msgs/LaserScan.h
@@ -16,9 +16,9 @@ geometry_msgs/Twist.h
 nav_msgs/Odometry.h
 -
 
-/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp
+/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp
 turtlebot3_gazebo/turtlebot3_drive.h
-/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_gazebo/turtlebot3_drive.h
+/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_gazebo/turtlebot3_drive.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"turtlebot3_fake\"
 
-CXX_INCLUDES = -I/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_fake/include -I/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_simulations/turtlebot3_fake/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

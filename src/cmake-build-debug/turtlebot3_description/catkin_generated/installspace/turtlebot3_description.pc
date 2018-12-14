@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: turtlebot3_description
+Description: Description of turtlebot3_description
+Version: 1.1.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: urdf xacro

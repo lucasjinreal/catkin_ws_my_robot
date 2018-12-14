@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/media/jintain/wd/ros/wps/catkin_ws_my_robot/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

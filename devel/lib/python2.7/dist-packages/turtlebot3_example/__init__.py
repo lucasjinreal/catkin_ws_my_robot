@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_example/src".split(";")
+__extended_path = "/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_example/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

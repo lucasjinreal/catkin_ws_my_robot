@@ -1,8 +1,0 @@
-prefix=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel
-
-Name: turtlebot3_msgs
-Description: Description of turtlebot3_msgs
-Version: 1.0.0
-Cflags: -I/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/include
-Libs: -L/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/lib 
-Requires: std_msgs message_runtime

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp
+Change Dir: /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69196/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69196.dir/build.make CMakeFiles/cmTC_69196.dir/build
-make[1]: Entering directory '/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_69196.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_69196.dir/CheckSymbolExists.c.o   -c /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_69196
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69196.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_69196.dir/CheckSymbolExists.c.o  -o cmTC_69196 
-CMakeFiles/cmTC_69196.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_76c92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76c92.dir/build.make CMakeFiles/cmTC_76c92.dir/build
+make[1]: Entering directory '/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76c92.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_76c92.dir/CheckSymbolExists.c.o   -c /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_76c92
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76c92.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_76c92.dir/CheckSymbolExists.c.o  -o cmTC_76c92 
+CMakeFiles/cmTC_76c92.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_69196.dir/build.make:86: recipe for target 'cmTC_69196' failed
-make[1]: *** [cmTC_69196] Error 1
-make[1]: Leaving directory '/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_69196/fast' failed
-make: *** [cmTC_69196/fast] Error 2
+CMakeFiles/cmTC_76c92.dir/build.make:86: recipe for target 'cmTC_76c92' failed
+make[1]: *** [cmTC_76c92] Error 1
+make[1]: Leaving directory '/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_76c92/fast' failed
+make: *** [cmTC_76c92/fast] Error 2
 
-File /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp
+Change Dir: /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_380d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_380d5.dir/build.make CMakeFiles/cmTC_380d5.dir/build
-make[1]: Entering directory '/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_380d5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_380d5.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_380d5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_380d5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_380d5.dir/CheckFunctionExists.c.o  -o cmTC_380d5 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_952f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_952f4.dir/build.make CMakeFiles/cmTC_952f4.dir/build
+make[1]: Entering directory '/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_952f4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_952f4.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_952f4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_952f4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_952f4.dir/CheckFunctionExists.c.o  -o cmTC_952f4 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_380d5.dir/build.make:86: recipe for target 'cmTC_380d5' failed
-make[1]: *** [cmTC_380d5] Error 1
-make[1]: Leaving directory '/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_380d5/fast' failed
-make: *** [cmTC_380d5/fast] Error 2
+CMakeFiles/cmTC_952f4.dir/build.make:86: recipe for target 'cmTC_952f4' failed
+make[1]: *** [cmTC_952f4] Error 1
+make[1]: Leaving directory '/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_952f4/fast' failed
+make: *** [cmTC_952f4/fast] Error 2
 
 

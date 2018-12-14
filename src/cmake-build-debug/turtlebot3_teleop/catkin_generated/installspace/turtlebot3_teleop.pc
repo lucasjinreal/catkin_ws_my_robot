@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: turtlebot3_teleop
+Description: Description of turtlebot3_teleop
+Version: 1.1.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: rospy geometry_msgs

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_slam/include/turtlebot3_slam/flat_world_imu_node.h
+/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_slam/include/turtlebot3_slam/flat_world_imu_node.h
 ros/ros.h
 -
 sensor_msgs/Imu.h
 -
 
-/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_slam/src/flat_world_imu_node.cpp
+/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_slam/src/flat_world_imu_node.cpp
 turtlebot3_slam/flat_world_imu_node.h
 -
 
@@ -127,6 +127,8 @@ rosconsole/macros_generated.h
 /opt/ros/melodic/include/ros/rosconsole/macros_generated.h
 
 /opt/ros/melodic/include/ros/console_backend.h
+ros/macros.h
+-
 
 /opt/ros/melodic/include/ros/datatypes.h
 string

@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src
+CMAKE_SOURCE_DIR = /media/jintain/wd/ros/wps/catkin_ws_my_robot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build
+CMAKE_BINARY_DIR = /media/jintain/wd/ros/wps/catkin_ws_my_robot/build
 
 # Utility rule file for turtlebot3_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build: tu
 .PHONY : turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build
 
 turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/turtlebot3_bringup && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/turtlebot3_bringup && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/clean
 
 turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/depend:
-	cd /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_bringup /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/turtlebot3_bringup /media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/build/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /media/jintain/wd/ros/wps/catkin_ws_my_robot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/jintain/wd/ros/wps/catkin_ws_my_robot/src /media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_bringup /media/jintain/wd/ros/wps/catkin_ws_my_robot/build /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/turtlebot3_bringup /media/jintain/wd/ros/wps/catkin_ws_my_robot/build/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/depend
 

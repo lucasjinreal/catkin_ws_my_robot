@@ -10,7 +10,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/install}
+: ${_CATKIN_SETUP_DIR:=/media/jintain/wd/ros/wps/catkin_ws_my_robot/install}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

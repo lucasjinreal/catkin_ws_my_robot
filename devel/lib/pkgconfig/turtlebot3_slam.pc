@@ -1,8 +1,8 @@
-prefix=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel
+prefix=/media/jintain/wd/ros/wps/catkin_ws_my_robot/devel
 
 Name: turtlebot3_slam
 Description: Description of turtlebot3_slam
 Version: 1.1.0
-Cflags: -I/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/src/turtlebot3_slam/include
-Libs: -L/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/lib 
+Cflags: -I/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/turtlebot3_slam/include
+Libs: -L/media/jintain/wd/ros/wps/catkin_ws_my_robot/devel/lib 
 Requires: roscpp sensor_msgs

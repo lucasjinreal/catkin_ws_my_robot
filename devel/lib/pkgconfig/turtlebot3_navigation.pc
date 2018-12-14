@@ -1,8 +1,8 @@
-prefix=/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel
+prefix=/media/jintain/wd/ros/wps/catkin_ws_my_robot/devel
 
 Name: turtlebot3_navigation
 Description: Description of turtlebot3_navigation
 Version: 1.1.0
 Cflags: 
-Libs: -L/media/jintain/sg/ai/career/robot/ctirobot/ros_sp/catkin_ws_my_robot/devel/lib 
+Libs: -L/media/jintain/wd/ros/wps/catkin_ws_my_robot/devel/lib 
 Requires: 
