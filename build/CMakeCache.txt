@@ -1045,6 +1045,12 @@ std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/opt/ros/melodic/share/std_srvs/cmake
 
+//Value Computed by CMake
+tb3_planning_BINARY_DIR:STATIC=/media/jintain/wd/ros/wps/catkin_ws_my_robot/build/tb3_planning
+
+//Value Computed by CMake
+tb3_planning_SOURCE_DIR:STATIC=/media/jintain/wd/ros/wps/catkin_ws_my_robot/src/tb3_planning
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/melodic/share/tf2/cmake
 
@@ -1464,7 +1470,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=25
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=26
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

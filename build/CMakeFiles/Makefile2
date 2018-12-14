@@ -875,6 +875,24 @@ slam_gmapping/slam_gmapping/preinstall:
 .PHONY : slam_gmapping/slam_gmapping/preinstall
 
 #=============================================================================
+# Directory level rules for directory tb3_planning
+
+# Convenience name for "all" pass in the directory.
+tb3_planning/all:
+
+.PHONY : tb3_planning/all
+
+# Convenience name for "clean" pass in the directory.
+tb3_planning/clean:
+
+.PHONY : tb3_planning/clean
+
+# Convenience name for "preinstall" pass in the directory.
+tb3_planning/preinstall:
+
+.PHONY : tb3_planning/preinstall
+
+#=============================================================================
 # Directory level rules for directory turtlebot3
 
 # Convenience name for "all" pass in the directory.
